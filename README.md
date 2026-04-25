@@ -1,6 +1,6 @@
 # Open Model License Index
 
-[![Update Index](https://github.com/YOUR_USER/open-model-license-index/actions/workflows/update.yml/badge.svg)](https://github.com/YOUR_USER/open-model-license-index/actions/workflows/update.yml)
+[![Update Index](https://github.com/hyeonseo2/open-model-license-index/actions/workflows/update.yml/badge.svg)](https://github.com/YOUR_USER/open-model-license-index/actions/workflows/update.yml)
 
 > **Important:** this project does **not** classify, score, or interpret licenses.
 > It only mirrors the license identifier/name/link exposed by Open model
@@ -9,7 +9,7 @@
 
 ## What is this?
 
-A daily-updated index of license metadata for popular Open models.
+A daily-updated index of license metadata for popular open models.
 
 - **Data sources**: Hugging Face Hub API — model card metadata, hub tags, repository files
 - **Update frequency**: Daily via GitHub Actions
