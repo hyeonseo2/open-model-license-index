@@ -19,7 +19,7 @@ A daily-updated index of license metadata for popular Open models.
 
 <!-- MODEL_LICENSE_TABLE:START -->
 
-> 56 models tracked · updated 2026-04-25 13:55 UTC
+> 56 models tracked · updated 2026-04-25 14:07 UTC
 
 | Model | License |
 |---|---|
@@ -86,7 +86,6 @@ A daily-updated index of license metadata for popular Open models.
 | File | Description |
 |---|---|
 | `data/models.json` | Full JSON with license evidence |
-| `data/models.csv` | Flat CSV for spreadsheets |
 | `public/models.json` | JSON served by GitHub Pages |
 | `public/index.html` | Interactive browse UI |
 

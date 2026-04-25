@@ -5,16 +5,13 @@ Open Model License Index — update_index.py
 Collects license metadata from tracked organizations and
 generates:
   - data/models.json   (full JSON with evidence)
-  - data/models.csv    (flat CSV)
   - public/models.json (copy for GitHub Pages)
   - README.md          (marker-region table update)
 """
 
 from __future__ import annotations
 
-import csv
 import hashlib
-import io
 import json
 import os
 import re
