@@ -10,43 +10,41 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#030712; --bg-glass:rgba(17,24,39,0.7);
-  --surface:rgba(30,41,59,0.5); --surface-hover:rgba(51,65,85,0.7);
-  --border:rgba(255,255,255,0.08); --border-glow:rgba(99,102,241,0.3);
-  --text:#f8fafc; --text2:#94a3b8;
-  --accent:#818cf8; --accent2:#c084fc;
-  --green:#34d399; --red:#f87171;
-  --radius:16px; --radius-sm:10px;
-  --shadow:0 8px 32px rgba(0,0,0,0.4);
+  --bg:#f8fafc; --bg-glass:rgba(255,255,255,0.85);
+  --surface:#ffffff; --surface-hover:#f1f5f9;
+  --border:rgba(0,0,0,0.06); --border-glow:rgba(99,102,241,0.2);
+  --text:#0f172a; --text2:#64748b;
+  --accent:#4f46e5; --accent2:#7c3aed;
+  --green:#10b981; --red:#ef4444;
+  --radius:12px; --radius-sm:8px;
+  --shadow:0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.02);
 }
-html{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:14px;background-attachment:fixed;}
+html{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:14px;}
 body{
   min-height:100vh;padding:0;
   background-image:
-    radial-gradient(circle at 15% 50%, rgba(99,102,241,0.15), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(192,132,252,0.15), transparent 25%);
+    radial-gradient(circle at 15% 50%, rgba(99,102,241,0.05), transparent 20%),
+    radial-gradient(circle at 85% 30%, rgba(192,132,252,0.05), transparent 20%);
 }
 
 /* Header */
 .hero{
-  padding:4rem 2rem 3rem;text-align:center;position:relative;overflow:hidden;
+  padding:5rem 2rem 4rem;text-align:center;position:relative;
   border-bottom:1px solid var(--border);
-  background:linear-gradient(to bottom, rgba(15,23,42,0.8), rgba(3,7,18,0));
+  background:white;
 }
-.hero *{position:relative;z-index:1}
 .hero h1{
   font-family:'Outfit',sans-serif;font-size:3.5rem;font-weight:800;margin-bottom:.75rem;
   letter-spacing:-.03em;
-  background:-webkit-linear-gradient(0deg, #818cf8, #e879f9);
+  background:linear-gradient(135deg, #4f46e5, #9333ea);
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  filter:drop-shadow(0 4px 12px rgba(139,92,246,0.3));
 }
-.hero p{color:var(--text2);font-size:1.05rem;max-width:640px;margin:0 auto;line-height:1.6;}
+.hero p{color:var(--text2);font-size:1.1rem;max-width:640px;margin:0 auto;line-height:1.6;font-weight:450;}
 .hero .badge{
   display:inline-block;margin-top:1.5rem;padding:.4rem 1.2rem;
-  border-radius:99px;background:rgba(255,255,255,.05);border:1px solid var(--border);
-  backdrop-filter:blur(12px);font-size:.85rem;color:var(--text2);font-weight:500;
-  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+  border-radius:99px;background:#f8fafc;border:1px solid var(--border);
+  font-size:.85rem;color:var(--text2);font-weight:600;
+  box-shadow:var(--shadow);
 }
 
 /* Container */
@@ -87,28 +85,27 @@ body{
 table{width:100%;border-collapse:separate;border-spacing:0;white-space:nowrap}
 thead{position:sticky;top:0;z-index:2;}
 th{
-  background:rgba(15,23,42,0.95);backdrop-filter:blur(8px);
-  padding:1.2rem 1.4rem;text-align:left;font-weight:600;font-size:.8rem;
+  background:#f8fafc;
+  padding:1.2rem 1.4rem;text-align:left;font-weight:600;font-size:.85rem;
   text-transform:uppercase;letter-spacing:.05em;color:var(--text2);
-  cursor:pointer;user-select:none;border-bottom:1px solid var(--border);
-  transition:color .2s;
+  cursor:pointer;user-select:none;border-bottom:2px solid var(--border);
+  transition:all .2s;
 }
-th:hover{color:var(--accent)}
+th:hover{color:var(--accent);background:#f1f5f9;}
 th .sort-icon{margin-left:.4rem;opacity:.4;font-size:.7rem}
 td{
-  padding:1rem 1.4rem;border-bottom:1px solid rgba(255,255,255,0.04);font-size:.85rem;color:var(--text);
-  transition:background .2s;
+  padding:1.1rem 1.4rem;border-bottom:1px solid var(--border);font-size:.9rem;color:var(--text);
 }
 tr:last-child td{border-bottom:none}
 tr:hover td{background:var(--surface-hover);}
 
 /* Links & Code */
-td a{color:var(--accent2);text-decoration:none;font-weight:500;transition:all .2s;}
-td a:hover{color:#d8b4fe;text-shadow:0 0 8px rgba(216,180,254,0.4);}
+td a{color:var(--accent);text-decoration:none;font-weight:600;transition:all .2s;}
+td a:hover{color:var(--accent2);text-decoration:underline;}
 td code{
-  background:rgba(255,255,255,0.06);padding:.25rem .6rem;border-radius:6px;
-  font-family:ui-monospace,monospace;font-size:.8rem;color:var(--green);
-  border:1px solid rgba(255,255,255,0.05);
+  background:#f1f5f9;padding:.25rem .6rem;border-radius:6px;
+  font-family:ui-monospace,monospace;font-size:.85rem;color:#334155;
+  border:1px solid var(--border);
 }
 
 .no-results{text-align:center;padding:4rem;color:var(--text2);font-size:1rem;font-weight:500;}
@@ -160,8 +157,8 @@ footer a:hover{color:var(--text);}
     <table>
       <thead>
         <tr>
-          <th data-col="id">Model <span class="sort-icon">⇅</span></th>
           <th data-col="org">Org <span class="sort-icon">⇅</span></th>
+          <th data-col="id">Model <span class="sort-icon">⇅</span></th>
           <th data-col="license">License <span class="sort-icon">⇅</span></th>
         </tr>
       </thead>
@@ -174,7 +171,7 @@ footer a:hover{color:var(--text);}
 <footer>
   <p>Data sourced from <a href="https://huggingface.co" target="_blank">Hugging Face Hub</a>.
   This project does <strong>not</strong> classify, score, or interpret licenses.<br>
-  <a href="https://github.com/YOUR_USER/open-model-license-index" target="_blank">GitHub Repository</a></p>
+  <a href="https://github.com/hyeonseo2/open-model-license-index" target="_blank">GitHub Repository</a></p>
 </footer>
 
 <script>
@@ -278,8 +275,8 @@ function renderTable(){
   const rows=filtered.map(m=>{
     const lic=m.license||{};
     return `<tr>
-      <td><a href="${escAttr(m.url)}" target="_blank"><code>${escHtml(m.id)}</code></a></td>
       <td>${escHtml(m.tracked_org||"")}</td>
+      <td><a href="${escAttr(m.url)}" target="_blank"><code>${escHtml(m.id)}</code></a></td>
       <td>${buildLicenseCell(lic)}</td>
     </tr>`;
   });
