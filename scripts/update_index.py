@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Hugging Face Model License Index — update_index.py
+Open Model License Index — update_index.py
 
-Collects license metadata from tracked Hugging Face organizations and
+Collects license metadata from tracked organizations and
 generates:
   - data/models.json   (full JSON with evidence)
   - data/models.csv    (flat CSV)
@@ -458,13 +458,12 @@ def _create_readme_template() -> None:
 [![Update Index](https://github.com/YOUR_USER/open-model-license-index/actions/workflows/update.yml/badge.svg)](https://github.com/YOUR_USER/open-model-license-index/actions/workflows/update.yml)
 
 > **Important:** this project does **not** classify, score, or interpret licenses.
-> It only mirrors the license identifier/name/link exposed by Hugging Face model
 > metadata, tags, and repository license files. Always review the linked original
 > source before using a model.
 
 ## What is this?
 
-A daily-updated index of license metadata for popular Hugging Face models.
+A daily-updated index of license metadata for popular open models.
 
 - **Data sources**: Hugging Face Hub API — model card metadata, hub tags, repository files
 - **Update frequency**: Daily via GitHub Actions
@@ -512,7 +511,7 @@ _PAGES_HTML = r"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Open Model License Index</title>
-<meta name="description" content="Daily-updated index of license metadata for popular Hugging Face models. Browse, filter, and search model license information.">
+<meta name="description" content="Daily-updated index of license metadata for popular open models. Browse, filter, and search model license information.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
@@ -641,7 +640,7 @@ footer a:hover{color:var(--text);}
 
 <div class="hero">
   <h1>🌐 Open Model License Index</h1>
-  <p>Daily-updated license metadata for popular Hugging Face models.<br>
+  <p>Daily-updated license metadata for popular open models.<br>
   This project does <strong>not</strong> classify or interpret licenses.</p>
   <span class="badge" id="updateBadge">Loading…</span>
 </div>
@@ -901,7 +900,7 @@ jobs:
 
 def main() -> None:
     print("=" * 60)
-    print("HF Model License Index — update_index.py")
+    print("Open Model License Index — update_index.py")
     print("=" * 60)
 
     cfg = load_config()
