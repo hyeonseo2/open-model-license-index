@@ -437,17 +437,16 @@ def update_readme(models: list[dict[str, Any]], max_rows: int = 200) -> None:
 
 def _build_markdown_table(models: list[dict[str, Any]]) -> str:
     lines = [
-        "| Model | Org | License |",
-        "|---|---|---|",
+        "| Model | License |",
+        "|---|---|",
     ]
     for m in models:
         lic = m.get("license", {})
         model_link = f"[`{m['id']}`]({m['url']})"
-        org = m.get("tracked_org", "")
         license_cell = _format_license_cell(lic)
 
         lines.append(
-            f"| {model_link} | {org} | {license_cell} |"
+            f"| {model_link} | {license_cell} |"
         )
     return "\n".join(lines)
 
