@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Model License Index</title>
+<meta name="description" content="Daily-updated index of license metadata for popular Hugging Face models. Browse, filter, and search model license information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#030712; --bg-glass:rgba(17,24,39,0.7);
+  --surface:rgba(30,41,59,0.5); --surface-hover:rgba(51,65,85,0.7);
+  --border:rgba(255,255,255,0.08); --border-glow:rgba(99,102,241,0.3);
+  --text:#f8fafc; --text2:#94a3b8;
+  --accent:#818cf8; --accent2:#c084fc;
+  --green:#34d399; --red:#f87171;
+  --radius:16px; --radius-sm:10px;
+  --shadow:0 8px 32px rgba(0,0,0,0.4);
+}
+html{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:14px;background-attachment:fixed;}
+body{
+  min-height:100vh;padding:0;
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(99,102,241,0.15), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(192,132,252,0.15), transparent 25%);
+}
+
+/* Header */
+.hero{
+  padding:4rem 2rem 3rem;text-align:center;position:relative;overflow:hidden;
+  border-bottom:1px solid var(--border);
+  background:linear-gradient(to bottom, rgba(15,23,42,0.8), rgba(3,7,18,0));
+}
+.hero *{position:relative;z-index:1}
+.hero h1{
+  font-family:'Outfit',sans-serif;font-size:3.5rem;font-weight:800;margin-bottom:.75rem;
+  letter-spacing:-.03em;
+  background:-webkit-linear-gradient(0deg, #818cf8, #e879f9);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 4px 12px rgba(139,92,246,0.3));
+}
+.hero p{color:var(--text2);font-size:1.05rem;max-width:640px;margin:0 auto;line-height:1.6;}
+.hero .badge{
+  display:inline-block;margin-top:1.5rem;padding:.4rem 1.2rem;
+  border-radius:99px;background:rgba(255,255,255,.05);border:1px solid var(--border);
+  backdrop-filter:blur(12px);font-size:.85rem;color:var(--text2);font-weight:500;
+  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Container */
+.container{max-width:1200px;margin:0 auto;padding:2rem}
+
+/* Controls bar */
+.controls{
+  display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;align-items:center;
+}
+.controls input[type=text],.controls select{
+  padding:.7rem 1.2rem;border-radius:var(--radius-sm);border:1px solid var(--border);
+  background:var(--bg-glass);backdrop-filter:blur(8px);
+  color:var(--text);font-size:.9rem;transition:all .3s ease;outline:none;
+}
+.controls input[type=text]:focus,.controls select:focus{
+  border-color:var(--accent);box-shadow:0 0 0 3px var(--border-glow);
+}
+.controls input[type=text]{flex:1;min-width:240px}
+.controls select{min-width:150px;cursor:pointer;}
+.controls select:hover{background:var(--surface);}
+
+/* Stats bar */
+.stats{display:flex;gap:1.5rem;margin-bottom:2rem;flex-wrap:wrap;}
+.stat-card{
+  flex:1;min-width:160px;background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:1.4rem;display:flex;flex-direction:column;gap:.4rem;
+  backdrop-filter:blur(10px);transition:transform .3s ease,border-color .3s;box-shadow:var(--shadow);
+}
+.stat-card:hover{transform:translateY(-4px);border-color:var(--border-glow);}
+.stat-card .label{font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text2);font-weight:600;}
+.stat-card .value{font-size:1.8rem;font-weight:700;font-family:'Outfit',sans-serif;color:var(--text);}
+
+/* Table */
+.table-wrap{
+  overflow-x:auto;border-radius:var(--radius);border:1px solid var(--border);
+  background:var(--bg-glass);backdrop-filter:blur(16px);box-shadow:var(--shadow);
+}
+table{width:100%;border-collapse:separate;border-spacing:0;white-space:nowrap}
+thead{position:sticky;top:0;z-index:2;}
+th{
+  background:rgba(15,23,42,0.95);backdrop-filter:blur(8px);
+  padding:1.2rem 1.4rem;text-align:left;font-weight:600;font-size:.8rem;
+  text-transform:uppercase;letter-spacing:.05em;color:var(--text2);
+  cursor:pointer;user-select:none;border-bottom:1px solid var(--border);
+  transition:color .2s;
+}
+th:hover{color:var(--accent)}
+th .sort-icon{margin-left:.4rem;opacity:.4;font-size:.7rem}
+td{
+  padding:1rem 1.4rem;border-bottom:1px solid rgba(255,255,255,0.04);font-size:.85rem;color:var(--text);
+  transition:background .2s;
+}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--surface-hover);}
+
+/* Links & Code */
+td a{color:var(--accent2);text-decoration:none;font-weight:500;transition:all .2s;}
+td a:hover{color:#d8b4fe;text-shadow:0 0 8px rgba(216,180,254,0.4);}
+td code{
+  background:rgba(255,255,255,0.06);padding:.25rem .6rem;border-radius:6px;
+  font-family:ui-monospace,monospace;font-size:.8rem;color:var(--green);
+  border:1px solid rgba(255,255,255,0.05);
+}
+
+.no-results{text-align:center;padding:4rem;color:var(--text2);font-size:1rem;font-weight:500;}
+
+/* Footer */
+footer{text-align:center;padding:3rem 2rem;color:var(--text2);font-size:.85rem;border-top:1px solid var(--border);margin-top:4rem;}
+footer a{color:var(--accent);text-decoration:none;transition:color .2s;}
+footer a:hover{color:var(--text);}
+
+/* Responsive */
+@media(max-width:768px){
+  .hero{padding:3rem 1rem 2rem}
+  .hero h1{font-size:2.2rem}
+  .container{padding:1rem}
+  .controls{flex-direction:column}
+  .controls input[type=text],.controls select{width:100%}
+  .stats{gap:.75rem}
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🌐 Open Model License Index</h1>
+  <p>Daily-updated license metadata for popular Hugging Face models.<br>
+  This project does <strong>not</strong> classify or interpret licenses.</p>
+  <span class="badge" id="updateBadge">Loading…</span>
+</div>
+
+<div class="container">
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search models, orgs, licenses…" autofocus>
+    <select id="orgFilter"><option value="">All Orgs</option></select>
+    <select id="sourceFilter"><option value="">All Sources</option></select>
+    <select id="licFileFilter">
+      <option value="">License file: Any</option>
+      <option value="yes">Has license file</option>
+      <option value="no">No license file</option>
+    </select>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card"><span class="label">Total Models</span><span class="value" id="statTotal">—</span></div>
+    <div class="stat-card"><span class="label">Shown</span><span class="value" id="statShown">—</span></div>
+    <div class="stat-card"><span class="label">Organizations</span><span class="value" id="statOrgs">—</span></div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-col="id">Model <span class="sort-icon">⇅</span></th>
+          <th data-col="org">Org <span class="sort-icon">⇅</span></th>
+          <th data-col="license">License <span class="sort-icon">⇅</span></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div class="no-results" id="noResults" style="display:none">No models match your filters.</div>
+  </div>
+</div>
+
+<footer>
+  <p>Data sourced from <a href="https://huggingface.co" target="_blank">Hugging Face Hub</a>.
+  This project does <strong>not</strong> classify, score, or interpret licenses.<br>
+  <a href="https://github.com/YOUR_USER/open-model-license-index" target="_blank">GitHub Repository</a></p>
+</footer>
+
+<script>
+(function(){
+"use strict";
+let allModels=[], sortCol="id", sortDir=1;
+
+fetch("models.json")
+  .then(r=>r.json())
+  .then(data=>{
+    allModels=data.models||[];
+    document.getElementById("updateBadge").textContent=
+      `${data.count} models · updated ${(data.generated_at||'').slice(0,16).replace('T',' ')} UTC`;
+    populateFilters();
+    renderTable();
+  })
+  .catch(()=>{
+    document.getElementById("noResults").style.display="block";
+    document.getElementById("noResults").textContent="Failed to load models.json";
+  });
+
+function populateFilters(){
+  const orgs=new Set(), sources=new Set();
+  allModels.forEach(m=>{
+    if(m.tracked_org) orgs.add(m.tracked_org);
+    if(m.license&&m.license.metadata_source) sources.add(m.license.metadata_source);
+  });
+  const orgSel=document.getElementById("orgFilter");
+  [...orgs].sort().forEach(o=>{const opt=document.createElement("option");opt.value=o;opt.textContent=o;orgSel.appendChild(opt)});
+  const srcSel=document.getElementById("sourceFilter");
+  [...sources].sort().forEach(s=>{const opt=document.createElement("option");opt.value=s;opt.textContent=s;srcSel.appendChild(opt)});
+}
+
+function getFiltered(){
+  const q=document.getElementById("searchInput").value.toLowerCase();
+  const org=document.getElementById("orgFilter").value;
+  const src=document.getElementById("sourceFilter").value;
+  const lf=document.getElementById("licFileFilter").value;
+  return allModels.filter(m=>{
+    if(org && m.tracked_org!==org) return false;
+    const lic=m.license||{};
+    if(src && lic.metadata_source!==src) return false;
+    if(lf==="yes" && !lic.license_file) return false;
+    if(lf==="no" && lic.license_file) return false;
+    if(q){
+      const hay=[m.id,m.tracked_org,lic.raw,lic.name||"",lic.metadata_source||""].join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function sortModels(list){
+  return list.sort((a,b)=>{
+    let va,vb;
+    switch(sortCol){
+      case"id":va=a.id;vb=b.id;break;
+      case"org":va=a.tracked_org;vb=b.tracked_org;break;
+      case"license":va=(a.license||{}).raw||"";vb=(b.license||{}).raw||"";break;
+      default:va=a.id;vb=b.id;
+    }
+    if(typeof va==="string") return sortDir*va.localeCompare(vb);
+    return sortDir*((va>vb?1:va<vb?-1:0));
+  });
+}
+
+function buildLicenseCell(lic){
+  const raw=lic.raw||"unknown";
+  const name=lic.name;
+  let label=name&&name!==raw?`${escHtml(name)} (<code>${escHtml(raw)}</code>)`:`<code>${escHtml(raw)}</code>`;
+  
+  let bestUrl = null;
+  const ev = lic.evidence || [];
+  for(const kind of ["license_link", "license_file", "model_card"]){
+    const found = ev.find(e=>e.kind===kind);
+    if(found){
+      bestUrl = found.url;
+      break;
+    }
+  }
+  
+  if(bestUrl) label=`<a href="${escAttr(bestUrl)}" target="_blank">${label}</a>`;
+  return label;
+}
+
+function escHtml(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function escAttr(s){return s.replace(/&/g,"&amp;").replace(/"/g,"&quot;")}
+
+function renderTable(){
+  const filtered=sortModels(getFiltered());
+  const tbody=document.getElementById("tbody");
+  const noRes=document.getElementById("noResults");
+
+  document.getElementById("statTotal").textContent=allModels.length;
+  document.getElementById("statShown").textContent=filtered.length;
+  document.getElementById("statOrgs").textContent=new Set(allModels.map(m=>m.tracked_org)).size;
+
+  if(!filtered.length){tbody.innerHTML="";noRes.style.display="block";return}
+  noRes.style.display="none";
+
+  const rows=filtered.map(m=>{
+    const lic=m.license||{};
+    return `<tr>
+      <td><a href="${escAttr(m.url)}" target="_blank"><code>${escHtml(m.id)}</code></a></td>
+      <td>${escHtml(m.tracked_org||"")}</td>
+      <td>${buildLicenseCell(lic)}</td>
+    </tr>`;
+  });
+  tbody.innerHTML=rows.join("");
+}
+
+// Event listeners
+["searchInput","orgFilter","sourceFilter","licFileFilter"].forEach(id=>{
+  document.getElementById(id).addEventListener("input",renderTable);
+  document.getElementById(id).addEventListener("change",renderTable);
+});
+
+document.querySelectorAll("th[data-col]").forEach(th=>{
+  th.addEventListener("click",()=>{
+    const col=th.dataset.col;
+    if(sortCol===col) sortDir*=-1; else{sortCol=col;sortDir=1}
+    renderTable();
+  });
+});
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+organizations: []
+
+collection_organizations:
+  - google
+  - meta-llama
+  - mistralai
+  - Qwen
+  - microsoft
+  - deepseek-ai
+
+per_org_limit: 10
+max_scan_per_org: 100
+
+pipeline_tags: []
+# 예:
+# pipeline_tags:
+#   - text-generation
+#   - image-text-to-text
+
+include_name_regex: []
+exclude_name_regex: []
+
+include_gated: true
+readme_max_rows: 200
