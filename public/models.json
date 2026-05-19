@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T19:09:11.725391+00:00",
+  "generated_at": "2026-05-19T19:22:49.399450+00:00",
   "count": 57,
   "models": [
     {
@@ -35,7 +35,7 @@
       "sources": {
         "model_card": "https://huggingface.co/google/gemma-4-31B-it"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/medgemma-1.5-4b-it",
@@ -70,7 +70,37 @@
       "sources": {
         "model_card": "https://huggingface.co/google/medgemma-1.5-4b-it"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "google/tipsv2-b14-dpt",
+      "url": "https://huggingface.co/google/tipsv2-b14-dpt",
+      "author": null,
+      "tracked_org": "google",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "apache-2.0",
+        "id": "apache-2.0",
+        "key": "apache-2.0",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/google/tipsv2-b14-dpt"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/google/tipsv2-b14-dpt"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/translategemma-4b-it",
@@ -100,67 +130,7 @@
       "sources": {
         "model_card": "https://huggingface.co/google/translategemma-4b-it"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "google/embeddinggemma-300m-qat-q8_0-unquantized",
-      "url": "https://huggingface.co/google/embeddinggemma-300m-qat-q8_0-unquantized",
-      "author": null,
-      "tracked_org": "google",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "gemma",
-        "id": "gemma",
-        "key": "gemma",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/google/embeddinggemma-300m-qat-q8_0-unquantized"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/google/embeddinggemma-300m-qat-q8_0-unquantized"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "google/gemma-2b-it",
-      "url": "https://huggingface.co/google/gemma-2b-it",
-      "author": null,
-      "tracked_org": "google",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "gemma",
-        "id": "gemma",
-        "key": "gemma",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/google/gemma-2b-it"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/google/gemma-2b-it"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/medgemma-4b-it",
@@ -195,7 +165,7 @@
       "sources": {
         "model_card": "https://huggingface.co/google/medgemma-4b-it"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/gemma-1.1-7b-it-GGUF",
@@ -225,37 +195,7 @@
       "sources": {
         "model_card": "https://huggingface.co/google/gemma-1.1-7b-it-GGUF"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "google/tipsv2-b14-dpt",
-      "url": "https://huggingface.co/google/tipsv2-b14-dpt",
-      "author": null,
-      "tracked_org": "google",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "apache-2.0",
-        "id": "apache-2.0",
-        "key": "apache-2.0",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/google/tipsv2-b14-dpt"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/google/tipsv2-b14-dpt"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/alphagenome-fold-3",
@@ -290,7 +230,7 @@
       "sources": {
         "model_card": "https://huggingface.co/google/alphagenome-fold-3"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "google/gemma-scope-2-270m-it",
@@ -320,7 +260,67 @@
       "sources": {
         "model_card": "https://huggingface.co/google/gemma-scope-2-270m-it"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "google/t5gemma-2-4b-4b",
+      "url": "https://huggingface.co/google/t5gemma-2-4b-4b",
+      "author": null,
+      "tracked_org": "google",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "gemma",
+        "id": "gemma",
+        "key": "gemma",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/google/t5gemma-2-4b-4b"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/google/t5gemma-2-4b-4b"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "google/functiongemma-270m-it",
+      "url": "https://huggingface.co/google/functiongemma-270m-it",
+      "author": null,
+      "tracked_org": "google",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "gemma",
+        "id": "gemma",
+        "key": "gemma",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/google/functiongemma-270m-it"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/google/functiongemma-270m-it"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.2-1B",
@@ -356,7 +356,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.2-1B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
@@ -392,7 +392,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -428,7 +428,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
@@ -464,7 +464,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.2-1B",
@@ -500,7 +500,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.2-1B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -536,7 +536,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.2-90B-Vision-Instruct",
@@ -572,7 +572,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-2-13b-chat",
@@ -608,7 +608,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-2-13b-chat"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -644,7 +644,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
@@ -680,7 +680,7 @@
       "sources": {
         "model_card": "https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Mistral-Medium-3.5-128B",
@@ -716,7 +716,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Voxtral-4B-TTS-2603",
@@ -746,7 +746,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Mistral-Small-4-119B-2603-eagle",
@@ -776,7 +776,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-eagle"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Ministral-3-8B-Reasoning-2512",
@@ -806,7 +806,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
@@ -836,7 +836,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512-GGUF"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
@@ -866,7 +866,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
@@ -896,7 +896,7 @@
       "sources": {
         "model_card": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B",
@@ -937,7 +937,7 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/Qwen3.5-122B-A10B-FP8",
@@ -978,7 +978,37 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B-FP8"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "author": null,
+      "tracked_org": "Qwen",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "apache-2.0",
+        "id": "apache-2.0",
+        "key": "apache-2.0",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
@@ -1019,7 +1049,7 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50",
@@ -1060,7 +1090,67 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "author": null,
+      "tracked_org": "Qwen",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "apache-2.0",
+        "id": "apache-2.0",
+        "key": "apache-2.0",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B",
+      "author": null,
+      "tracked_org": "Qwen",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "apache-2.0",
+        "id": "apache-2.0",
+        "key": "apache-2.0",
+        "name": null,
+        "display_url": null,
+        "metadata_source": "model_card_metadata",
+        "license_link": null,
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/WebWorld-14B",
@@ -1101,67 +1191,7 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/WebWorld-14B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
-      "url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
-      "author": null,
-      "tracked_org": "Qwen",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "apache-2.0",
-        "id": "apache-2.0",
-        "key": "apache-2.0",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "Qwen/Qwen3-ForcedAligner-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B",
-      "author": null,
-      "tracked_org": "Qwen",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "apache-2.0",
-        "id": "apache-2.0",
-        "key": "apache-2.0",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "Qwen/Qwen-Image-2512",
@@ -1191,20 +1221,20 @@
       "sources": {
         "model_card": "https://huggingface.co/Qwen/Qwen-Image-2512"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
-      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
-      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "id": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct",
       "author": null,
       "tracked_org": "Qwen",
       "likes": 0,
       "sha": "",
       "license": {
-        "raw": "apache-2.0",
-        "id": "apache-2.0",
-        "key": "apache-2.0",
-        "name": null,
+        "raw": "other",
+        "id": "other",
+        "key": "other",
+        "name": "apache-2.0",
         "display_url": null,
         "metadata_source": "model_card_metadata",
         "license_link": null,
@@ -1214,44 +1244,14 @@
           {
             "kind": "model_card",
             "label": "model card",
-            "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+            "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct"
           }
         ]
       },
       "sources": {
-        "model_card": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+        "model_card": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "Qwen/Qwen3-Embedding-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
-      "author": null,
-      "tracked_org": "Qwen",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "apache-2.0",
-        "id": "apache-2.0",
-        "key": "apache-2.0",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/GridSFM_Open",
@@ -1287,7 +1287,48 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/GridSFM_Open"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "microsoft/Phi-3.5-vision-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+      "author": null,
+      "tracked_org": "microsoft",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "mit",
+        "id": "mit",
+        "key": "mit",
+        "name": null,
+        "display_url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct/resolve/main/LICENSE",
+        "metadata_source": "model_card_metadata",
+        "license_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct/resolve/main/LICENSE",
+        "license_file": "LICENSE",
+        "license_file_url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct/blob/main/LICENSE",
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+          },
+          {
+            "kind": "license_link",
+            "label": "license link",
+            "url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct/resolve/main/LICENSE"
+          },
+          {
+            "kind": "license_file",
+            "label": "LICENSE",
+            "path": "LICENSE",
+            "url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct/blob/main/LICENSE"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/skala-baselines",
@@ -1317,7 +1358,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/skala-baselines"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/paza-Phi-4-multimodal-instruct",
@@ -1347,7 +1388,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/paza-Phi-4-multimodal-instruct"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/chatbench-mistral-7b",
@@ -1377,7 +1418,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/chatbench-mistral-7b"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/VibeVoice-ASR",
@@ -1407,7 +1448,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/VibeVoice-ASR"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/Dayhoff-170m-UR50-BRq",
@@ -1443,7 +1484,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/Dayhoff-170m-UR50-BRq"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/NatureLM-8x7B",
@@ -1479,7 +1520,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/NatureLM-8x7B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/MediPhi-MedWiki",
@@ -1515,7 +1556,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/MediPhi-MedWiki"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "microsoft/NextCoder-32B",
@@ -1545,43 +1586,7 @@
       "sources": {
         "model_card": "https://huggingface.co/microsoft/NextCoder-32B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "microsoft/MAI-DS-R1-FP8",
-      "url": "https://huggingface.co/microsoft/MAI-DS-R1-FP8",
-      "author": null,
-      "tracked_org": "microsoft",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "mit",
-        "id": "mit",
-        "key": "mit",
-        "name": null,
-        "display_url": null,
-        "metadata_source": "model_card_metadata",
-        "license_link": null,
-        "license_file": "LICENSE",
-        "license_file_url": "https://huggingface.co/microsoft/MAI-DS-R1-FP8/blob/main/LICENSE",
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/microsoft/MAI-DS-R1-FP8"
-          },
-          {
-            "kind": "license_file",
-            "label": "LICENSE",
-            "path": "LICENSE",
-            "url": "https://huggingface.co/microsoft/MAI-DS-R1-FP8/blob/main/LICENSE"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/microsoft/MAI-DS-R1-FP8"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
@@ -1617,7 +1622,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.2-Speciale",
@@ -1653,42 +1658,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "deepseek-ai/deepseek-vl2",
-      "url": "https://huggingface.co/deepseek-ai/deepseek-vl2",
-      "author": null,
-      "tracked_org": "deepseek-ai",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "other",
-        "id": "other",
-        "key": "other",
-        "name": "deepseek",
-        "display_url": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL",
-        "metadata_source": "model_card_metadata",
-        "license_link": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL",
-        "license_file": null,
-        "license_file_url": null,
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/deepseek-ai/deepseek-vl2"
-          },
-          {
-            "kind": "license_link",
-            "label": "license link",
-            "url": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/deepseek-ai/deepseek-vl2"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-Prover-V2-671B",
@@ -1724,7 +1694,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-V2-Chat-0628",
@@ -1765,48 +1735,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
-    },
-    {
-      "id": "deepseek-ai/deepseek-coder-6.7b-base",
-      "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
-      "author": null,
-      "tracked_org": "deepseek-ai",
-      "likes": 0,
-      "sha": "",
-      "license": {
-        "raw": "other",
-        "id": "other",
-        "key": "other",
-        "name": "deepseek-license",
-        "display_url": "LICENSE",
-        "metadata_source": "model_card_metadata",
-        "license_link": "LICENSE",
-        "license_file": "LICENSE",
-        "license_file_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base/blob/main/LICENSE",
-        "evidence": [
-          {
-            "kind": "model_card",
-            "label": "model card",
-            "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base"
-          },
-          {
-            "kind": "license_link",
-            "label": "license link",
-            "url": "LICENSE"
-          },
-          {
-            "kind": "license_file",
-            "label": "LICENSE",
-            "path": "LICENSE",
-            "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base/blob/main/LICENSE"
-          }
-        ]
-      },
-      "sources": {
-        "model_card": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base"
-      },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-OCR-2",
@@ -1842,7 +1771,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
@@ -1878,7 +1807,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Zero",
@@ -1914,7 +1843,7 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     },
     {
       "id": "deepseek-ai/DeepSeek-V3-0324",
@@ -1950,7 +1879,77 @@
       "sources": {
         "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
       },
-      "last_checked_at": "2026-05-18T19:03:53.710220+00:00"
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "deepseek-ai/deepseek-vl2",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+      "author": null,
+      "tracked_org": "deepseek-ai",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "other",
+        "id": "other",
+        "key": "other",
+        "name": "deepseek",
+        "display_url": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL",
+        "metadata_source": "model_card_metadata",
+        "license_link": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL",
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-vl2"
+          },
+          {
+            "kind": "license_link",
+            "label": "license link",
+            "url": "https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/deepseek-ai/deepseek-vl2"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
+    },
+    {
+      "id": "deepseek-ai/Janus-Pro-1B",
+      "url": "https://huggingface.co/deepseek-ai/Janus-Pro-1B",
+      "author": null,
+      "tracked_org": "deepseek-ai",
+      "likes": 0,
+      "sha": "",
+      "license": {
+        "raw": "mit",
+        "id": "mit",
+        "key": "mit",
+        "name": "deepseek",
+        "display_url": "LICENSE",
+        "metadata_source": "model_card_metadata",
+        "license_link": "LICENSE",
+        "license_file": null,
+        "license_file_url": null,
+        "evidence": [
+          {
+            "kind": "model_card",
+            "label": "model card",
+            "url": "https://huggingface.co/deepseek-ai/Janus-Pro-1B"
+          },
+          {
+            "kind": "license_link",
+            "label": "license link",
+            "url": "LICENSE"
+          }
+        ]
+      },
+      "sources": {
+        "model_card": "https://huggingface.co/deepseek-ai/Janus-Pro-1B"
+      },
+      "last_checked_at": "2026-05-19T19:17:54.915135+00:00"
     }
   ]
 }
