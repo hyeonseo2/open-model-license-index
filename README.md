@@ -19,26 +19,26 @@ A daily-updated index of license metadata for popular open models.
 
 <!-- MODEL_LICENSE_TABLE:START -->
 
-> 57 models tracked · updated 2026-07-19 18:13 UTC
+> 57 models tracked · updated 2026-07-20 19:12 UTC
 
 | Model | License |
 |---|---|
 | [`google/gemma-4-31B-it`](https://huggingface.co/google/gemma-4-31B-it) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
 | [`google/gemma-4-31B-it-qat-q4_0-unquantized`](https://huggingface.co/google/gemma-4-31B-it-qat-q4_0-unquantized) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
 | [`google/diffusiongemma-26B-A4B-it`](https://huggingface.co/google/diffusiongemma-26B-A4B-it) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
-| [`google/gemma-4-E4B-it-qat-mobile-transformers`](https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-transformers) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
+| [`google/gemma-4-E4B-it-qat-mobile-ct`](https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-ct) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
 | [`google/tipsv2-b14-dpt`](https://huggingface.co/google/tipsv2-b14-dpt) | [`apache-2.0`](https://huggingface.co/google/tipsv2-b14-dpt) |
 | [`google/gemma-3n-E2B-it-litert-lm`](https://huggingface.co/google/gemma-3n-E2B-it-litert-lm) | [`gemma`](https://huggingface.co/google/gemma-3n-E2B-it-litert-lm) |
+| [`google/gemma-2b-it`](https://huggingface.co/google/gemma-2b-it) | [`gemma`](https://huggingface.co/google/gemma-2b-it) |
 | [`google-t5/t5-base`](https://huggingface.co/google-t5/t5-base) | [`apache-2.0`](https://huggingface.co/google-t5/t5-base) |
 | [`google/translategemma-4b-it`](https://huggingface.co/google/translategemma-4b-it) | [`gemma`](https://huggingface.co/google/translategemma-4b-it) |
 | [`google/alphagenome-fold-3`](https://huggingface.co/google/alphagenome-fold-3) | [alphagenome (`other`)](https://deepmind.google.com/science/alphagenome/model-terms) |
-| [`google/gemma-scope-2-270m-it`](https://huggingface.co/google/gemma-scope-2-270m-it) | [`cc-by-4.0`](https://huggingface.co/google/gemma-scope-2-270m-it) |
-| [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
-| [`meta-llama/Llama-3.3-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [`llama3.3`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Meta-Llama-3-8B-Instruct`](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) | [`llama3`](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-4-Maverick-17B-128E-Instruct`](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | [llama4 (`other`)](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.3-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [`llama3.3`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.2-1B`](https://huggingface.co/meta-llama/Llama-3.2-1B) | [`llama3.2`](https://huggingface.co/meta-llama/Llama-3.2-1B/blob/main/LICENSE.txt) |
+| [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
+| [`meta-llama/Llama-3.3-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [`llama3.3`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.2-90B-Vision-Instruct`](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct) | [`llama3.2`](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/blob/main/LICENSE.txt) |
 | [`meta-llama/Llama-2-13b-chat`](https://huggingface.co/meta-llama/Llama-2-13b-chat) | [`llama2`](https://huggingface.co/meta-llama/Llama-2-13b-chat/blob/main/LICENSE.txt) |
@@ -55,11 +55,11 @@ A daily-updated index of license metadata for popular open models.
 | [`Qwen/Qwen-AgentWorld-35B-A3B`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE) |
 | [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) |
 | [`Qwen/Qwen3-VL-Embedding-8B`](https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B) |
-| [`Qwen/Qwen3-VL-235B-A22B-Instruct-FP8`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) |
 | [`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8/blob/main/LICENSE) |
 | [`Qwen/Qwen2.5-1.5B`](https://huggingface.co/Qwen/Qwen2.5-1.5B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen2.5-1.5B/blob/main/LICENSE) |
 | [`Qwen/Qwen-Image-Bench`](https://huggingface.co/Qwen/Qwen-Image-Bench) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen-Image-Bench) |
 | [`Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50`](https://huggingface.co/Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50) | [qwen (`other`)](https://huggingface.co/Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50/blob/main/LICENSE) |
+| [`Qwen/Qwen3-ASR-0.6B-hf`](https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf) |
 | [`microsoft/bitnet-b1.58-2B-4T`](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) | [`mit`](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T/blob/main/LICENSE) |
 | [`microsoft/Phi-4-mini-flash-reasoning`](https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning) | [`mit`](https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning/resolve/main/LICENSE) |
 | [`microsoft/HARC`](https://huggingface.co/microsoft/HARC) | [`mit`](https://huggingface.co/microsoft/HARC) |
