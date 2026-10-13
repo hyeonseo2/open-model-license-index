@@ -19,22 +19,22 @@ A daily-updated index of license metadata for popular open models.
 
 <!-- MODEL_LICENSE_TABLE:START -->
 
-> 58 models tracked · updated 2026-10-12 23:42 UTC
+> 58 models tracked · updated 2026-10-13 21:55 UTC
 
 | Model | License |
 |---|---|
 | [`google/embeddinggemma-2`](https://huggingface.co/google/embeddinggemma-2) | [`apache-2.0`](https://huggingface.co/google/embeddinggemma-2) |
 | [`google/gemma-4-31B-it`](https://huggingface.co/google/gemma-4-31B-it) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
 | [`google/medgemma-1.5-4b-it`](https://huggingface.co/google/medgemma-1.5-4b-it) | [health-ai-developer-foundations (`other`)](https://developers.google.com/health-ai-developer-foundations/terms) |
-| [`google/gemma-2b-it`](https://huggingface.co/google/gemma-2b-it) | [`gemma`](https://huggingface.co/google/gemma-2b-it) |
-| [`google/alphagenome-fold-3`](https://huggingface.co/google/alphagenome-fold-3) | [alphagenome (`other`)](https://deepmind.google.com/science/alphagenome/model-terms) |
-| [`google/diffusiongemma-26B-A4B-it`](https://huggingface.co/google/diffusiongemma-26B-A4B-it) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
 | [`google/gemma-4-31B-it-qat-q4_0-unquantized`](https://huggingface.co/google/gemma-4-31B-it-qat-q4_0-unquantized) | [`apache-2.0`](https://ai.google.dev/gemma/docs/gemma_4_license) |
+| [`google/alphagenome-fold-3`](https://huggingface.co/google/alphagenome-fold-3) | [alphagenome (`other`)](https://deepmind.google.com/science/alphagenome/model-terms) |
+| [`google/gemma-2b-it`](https://huggingface.co/google/gemma-2b-it) | [`gemma`](https://huggingface.co/google/gemma-2b-it) |
 | [`google/tipsv2-so400m14`](https://huggingface.co/google/tipsv2-so400m14) | [`apache-2.0`](https://huggingface.co/google/tipsv2-so400m14) |
-| [`google/t5gemma-2-4b-4b`](https://huggingface.co/google/t5gemma-2-4b-4b) | [`gemma`](https://huggingface.co/google/t5gemma-2-4b-4b) |
 | [`google/functiongemma-270m-it`](https://huggingface.co/google/functiongemma-270m-it) | [`gemma`](https://huggingface.co/google/functiongemma-270m-it) |
-| [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
+| [`google/embeddinggemma-300m-qat-q8_0-unquantized`](https://huggingface.co/google/embeddinggemma-300m-qat-q8_0-unquantized) | [`gemma`](https://huggingface.co/google/embeddinggemma-300m-qat-q8_0-unquantized) |
+| [`google/siglip2-large-patch16-256`](https://huggingface.co/google/siglip2-large-patch16-256) | [`apache-2.0`](https://huggingface.co/google/siglip2-large-patch16-256) |
 | [`meta-llama/Llama-3.2-1B`](https://huggingface.co/meta-llama/Llama-3.2-1B) | [`llama3.2`](https://huggingface.co/meta-llama/Llama-3.2-1B/blob/main/LICENSE.txt) |
+| [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-4-Maverick-17B-128E-Instruct`](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | [llama4 (`other`)](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.1-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [`llama3.1`](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Meta-Llama-3-8B-Instruct`](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) | [`llama3`](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct/blob/main/LICENSE) |
@@ -44,7 +44,7 @@ A daily-updated index of license metadata for popular open models.
 | [`meta-llama/Llama-3.3-70B-Instruct`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [`llama3.3`](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) |
 | [`meta-llama/Llama-3.2-1B`](https://huggingface.co/meta-llama/Llama-3.2-1B) | [`llama3.2`](https://huggingface.co/meta-llama/Llama-3.2-1B/blob/main/LICENSE.txt) |
 | [`mistralai/Ministral-3-8B-Reasoning-2512`](https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512) | [`apache-2.0`](https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512) |
-| [`mistralai/Voxtral-Mini-4B-Realtime-Arabic`](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic) | [`unknown`](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic) |
+| [`mistralai/LIDstral-Arabic`](https://huggingface.co/mistralai/LIDstral-Arabic) | [`apache-2.0`](https://huggingface.co/mistralai/LIDstral-Arabic) |
 | [`mistralai/Mistral-Medium-3.5-128B`](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B) | [`other`](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/blob/main/LICENSE) |
 | [`mistralai/Voxtral-4B-TTS-2603`](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603) | [`cc-by-nc-4.0`](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603) |
 | [`mistralai/Mistral-Small-4-119B-2603-NVFP4`](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4) | [`apache-2.0`](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4) |
@@ -53,23 +53,23 @@ A daily-updated index of license metadata for popular open models.
 | [`mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4`](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4) | [`apache-2.0`](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4) |
 | [`Qwen/Qwen3.8-27B`](https://huggingface.co/Qwen/Qwen3.8-27B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE) |
 | [`Qwen/Qwen3.5-122B-A10B-FP8`](https://huggingface.co/Qwen/Qwen3.5-122B-A10B-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.5-122B-A10B-FP8/blob/main/LICENSE) |
-| [`Qwen/Qwen3-VL-235B-A22B-Instruct-FP8`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) |
-| [`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8/blob/main/LICENSE) |
-| [`Qwen/Qwen3.8-Flash-Next-FP8`](https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8) | [qwen-community-1.0 (`other`)](LICENSE) |
 | [`Qwen/Qwen3.6-35B-A3B`](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/main/LICENSE) |
 | [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) |
+| [`Qwen/Qwen3-VL-235B-A22B-Instruct-FP8`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) |
+| [`Qwen/Qwen3.8-Flash-Next-FP8`](https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8) | [qwen-community-1.0 (`other`)](LICENSE) |
+| [`Qwen/Qwen3-Omni-30B-A3B-Instruct`](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct) | [apache-2.0 (`other`)](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct) |
 | [`Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8`](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8/blob/main/LICENSE) |
-| [`Qwen/Qwen-AgentWorld-35B-A3B`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE) |
-| [`Qwen/Qwen-Image-Bench`](https://huggingface.co/Qwen/Qwen-Image-Bench) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen-Image-Bench) |
+| [`Qwen/Qwen3-Embedding-0.6B`](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) |
+| [`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8/blob/main/LICENSE) |
 | [`microsoft/rho-libero`](https://huggingface.co/microsoft/rho-libero) | [`mit`](https://huggingface.co/microsoft/rho-libero/blob/main/LICENSE) |
 | [`microsoft/FrogNano-4B-2609`](https://huggingface.co/microsoft/FrogNano-4B-2609) | [`mit`](https://huggingface.co/microsoft/FrogNano-4B-2609) |
-| [`microsoft/paza-Phi-4-multimodal-instruct`](https://huggingface.co/microsoft/paza-Phi-4-multimodal-instruct) | [`mit`](https://huggingface.co/microsoft/paza-Phi-4-multimodal-instruct) |
 | [`microsoft/Fara1.5-27B`](https://huggingface.co/microsoft/Fara1.5-27B) | [`mit`](https://huggingface.co/microsoft/Fara1.5-27B) |
 | [`microsoft/Fara1.5-9B`](https://huggingface.co/microsoft/Fara1.5-9B) | [`mit`](https://huggingface.co/microsoft/Fara1.5-9B) |
 | [`microsoft/HARC`](https://huggingface.co/microsoft/HARC) | [`mit`](https://huggingface.co/microsoft/HARC) |
 | [`microsoft/Mage-VL`](https://huggingface.co/microsoft/Mage-VL) | [`apache-2.0`](https://huggingface.co/microsoft/Mage-VL/blob/main/neural_codec/DCVC/LICENSE.txt) |
 | [`microsoft/GridSFM_Open`](https://huggingface.co/microsoft/GridSFM_Open) | [`mit`](https://huggingface.co/microsoft/GridSFM_Open/blob/main/LICENSE) |
 | [`microsoft/skala-1.1`](https://huggingface.co/microsoft/skala-1.1) | [`mit`](https://huggingface.co/microsoft/skala-1.1) |
+| [`microsoft/paza-Phi-4-multimodal-instruct`](https://huggingface.co/microsoft/paza-Phi-4-multimodal-instruct) | [`mit`](https://huggingface.co/microsoft/paza-Phi-4-multimodal-instruct) |
 | [`microsoft/chatbench-mistral-7b`](https://huggingface.co/microsoft/chatbench-mistral-7b) | [`apache-2.0`](https://huggingface.co/microsoft/chatbench-mistral-7b) |
 | [`deepseek-ai/DeepSeek-V4-Flash-DSpark`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark) | [`mit`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark/blob/main/LICENSE) |
 | [`deepseek-ai/DeepSeek-R1-Zero`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero) | [`mit`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero/blob/main/LICENSE) |
