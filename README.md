@@ -19,7 +19,7 @@ A daily-updated index of license metadata for popular open models.
 
 <!-- MODEL_LICENSE_TABLE:START -->
 
-> 59 models tracked · updated 2026-10-17 19:30 UTC
+> 59 models tracked · updated 2026-10-18 19:30 UTC
 
 | Model | License |
 |---|---|
@@ -55,10 +55,10 @@ A daily-updated index of license metadata for popular open models.
 | [`Qwen/Qwen3.8-27B`](https://huggingface.co/Qwen/Qwen3.8-27B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE) |
 | [`Qwen/Qwen3.5-122B-A10B-FP8`](https://huggingface.co/Qwen/Qwen3.5-122B-A10B-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.5-122B-A10B-FP8/blob/main/LICENSE) |
 | [`Qwen/Qwen3.8-Flash-Next-FP8`](https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8) | [qwen-community-1.0 (`other`)](LICENSE) |
-| [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) |
 | [`Qwen/Qwen3-VL-235B-A22B-Instruct-FP8`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) |
 | [`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8/blob/main/LICENSE) |
 | [`Qwen/Qwen3.6-35B-A3B`](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/main/LICENSE) |
+| [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) |
 | [`Qwen/Qwen3-Omni-30B-A3B-Instruct`](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct) | [apache-2.0 (`other`)](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct) |
 | [`Qwen/Qwen3-Embedding-0.6B`](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) |
 | [`Qwen/Qwen-AgentWorld-35B-A3B`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B) | [`apache-2.0`](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE) |
